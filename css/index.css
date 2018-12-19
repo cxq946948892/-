@@ -1,0 +1,221 @@
+body{
+    touch-action:none;
+}
+.img-box img{
+    width: 100%;
+}
+.page-hd{
+    overflow: hidden;
+}
+.a-text{
+    color:#666666;
+    float: left;
+}
+.b-text{
+    color:#666666;
+    float: right;
+}
+.b-text img{
+    width: 0.9rem;
+    position: relative;
+    top: 3px;
+    padding-right: 0.2rem;
+}
+.amount{
+    color: #53a839;
+}
+.card{
+    height: 3.6rem;
+    margin-bottom: 1.5rem;
+}
+.active-card{
+    background-image: url(../images/active-card.png) !important;
+    background-size: 100% 100%;
+}
+.normal-card{
+    background-image: url(../images/normal-card.png) ;
+    background-size: 100% 100%;
+}
+.card-left{
+    float: left;
+    height: 100%;
+    padding-left: 1.8rem;
+}
+.card-text{
+    float: right;
+    height: 100%;
+    line-height: 3.6rem;
+    padding-right: 2rem;
+}
+.font-14{
+    font-size: 14px;
+}
+.center{
+    text-align: center;
+}
+.red-gh{
+    color: #b85537;
+}
+.pay-btn{
+    margin-bottom: 6rem;
+}
+.pay-div{
+    padding: 0 20px 0 20px;
+}
+.weui-wrap{
+    padding-bottom: 6rem;
+}
+.weui-card-list{
+    padding-bottom: 6rem;
+}
+.weui-title{
+    padding: 15px 0px;
+    border-bottom: 1px #d0d0d0 solid;
+    color:#666666;
+}
+.weui-user-fuli{
+    padding: 15px 0px;
+    color:#666666;
+}
+.weui-user{
+    padding: 15px 0px;
+    border-bottom: 1px #d0d0d0 solid;
+    color:#666666;
+    overflow: hidden;
+}
+.weui-title-text{
+    padding-left: 24px; 
+}
+.weui-user-text{
+    float: left;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 24px;
+    border: 2px solid #486539;
+}
+.weui-user-text-span{
+    float: left;
+    padding-left: 1.5rem;
+    font-size: 18px;
+    color: #000000;
+    line-height: 3rem;
+
+}
+.weui-record{
+    padding: 15px 0px;
+    border-bottom: 1px #d0d0d0 solid;
+    overflow: hidden;
+}
+.weui-record-left{
+    float: left;
+    padding-left: 24px;
+}
+.weui-record-right{
+    float: right;
+    padding-right: 24px;
+    padding-top: 10px;
+}
+.record-time{
+    font-size: 15px;
+    color:#616161;
+}
+.record-type{
+    font-size: 15px;
+    color:#1F821F;
+}
+.record-money{
+    font-size: 15px;
+    color:#000000;
+}
+.headimage{
+    width: 3rem;
+    height: 3rem;
+}
+.weui-card-buttom{
+    padding: 0 24px;
+    margin-bottom: 1rem;
+}
+.weui-bar__item--on i{
+    color:#04BE02;
+}
+.pic img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.content .c-room-item {
+    float: left;
+}
+.c-room-item {
+    margin-left: 1.3%;
+    margin-bottom: 1.3%;
+    width: 48%;
+}
+.content {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+.c-room-item a {
+    display: block;
+    width: 100%;
+}
+.c-room-item .room-show img {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.c-room-item .room-show img {
+    width: 100%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.c-room-item .room-show {
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+}
+.c-room-item .room-des {
+    width: 180px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 12px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.c-room-item .room-show .room-nickname {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    bottom: 2px;
+    left: 5px;
+    color: #fff;
+    font-size: 10px;
+    width: 100%;
+    overflow: hidden;
+    height: 18px;
+    line-height: 18px;
+}
+.c-room-item .room-show .room-online {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 5px;
+    color: #fff;
+    font-size: 10px;
+    height: 18px;
+    padding-top: 3.5px;
+}
+.weui-tab {
+    overflow-y:auto;
+}
+.hei{
+    height: 65px;
+}

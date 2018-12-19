@@ -1,0 +1,49 @@
+<div class="weui-tabbar">
+    <a href="./music_home.html" class="weui-tabbar__item music_home">
+        <i class="icon icon-27 f27 weui-tabbar__icon"></i>
+        <p class="weui-tabbar__label">主页</p>
+    </a>
+    <a href="./music_room.html" class="weui-tabbar__item music_room">
+        <i class="icon icon-44 f27 weui-tabbar__icon"></i>
+        <p class="weui-tabbar__label">开包间</p>
+    </a>
+    <a href="./music_myinfo.html" class="weui-tabbar__item music_myinfo">
+        <i class="icon icon-30 f27 weui-tabbar__icon" ></i>
+        <p class="weui-tabbar__label">我的</p>
+    </a>
+</div>
+
+<script>
+    //尾部逻辑
+    footer = function() {
+        this.hostName = 'footer';
+        this.basics = _main.basics; //基础方法类
+        this.config = _main.config; //基础配置类
+        this.localUrl = this.config.localUrl();//本地路由地址
+        this.api = this.config.api();//后台请求地址
+        this.userinfo = null;//本地用户信息
+        this.request = {}; //提交登录的参数
+        this.user_type; //登录的权限
+        this.hostname = this.basics.UrlName(); //本页的名字
+        this.init();
+    };
+    footer.prototype = {
+         //公用基础方法
+        init: function() {
+            //判断当前页面，给出选中效果
+            // console.log(this.hostname)
+            switch(this.hostname){
+                case 'music_home':
+                  $('.music_home').addClass('weui-bar__item--on');
+                  break;
+                case 'music_room':
+                  $('.music_room').addClass('weui-bar__item--on');
+                  break;
+                case 'music_myinfo':
+                  $('.music_myinfo').addClass('weui-bar__item--on');
+                  break;
+            }
+        },
+    }
+    var _footer = new footer;
+</script>

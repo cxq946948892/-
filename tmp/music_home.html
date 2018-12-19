@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>一起听歌</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    
+    <!-- 必须要，用来加载css，js -->
+    <script src="../js/utility/loadscript.js"></script>
+</head>
+
+<body ontouchstart>
+    <!-- 容器 -->
+    <div class="weui-tab " >
+        <div class="weui-search-bar" id="searchBar">
+            <form class="weui-search-bar__form" action="#">
+                <div class="weui-search-bar__box">
+                    <i class="weui-icon-search"></i>
+                    <input class="weui-search-bar__input" id="searchInput" placeholder="等你下课" required="" type="search">
+                    <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+                </div>
+                <label class="weui-search-bar__label" id="searchText" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+                    <i class="weui-icon-search"></i>
+                    <span>等你下课</span>
+                </label>
+            </form>
+            <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+        </div>
+        
+        <!-- 轮播 -->
+        <div class="slide" id="slide1">
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <img src='../images/lunbo/1.jpg' alt="">
+                    </a>
+                    <div class="slide-desc">《周杰伦的床边故事》新牒首发</div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src='../images/lunbo/2.jpg' alt="">
+                    </a>
+                    <div class="slide-desc">科幻电音</div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src='../images/lunbo/3.jpg' alt="">
+                    </a>
+                    <div class="slide-desc">宇宙深处的寂静</div>
+                </li>
+            </ul>
+            <div class="dot">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- 分类 -->
+        <div class="weui-grids grids-small">
+            <a href="javascript:;" class="grid"  >
+                <div class="weui-grid__icon">
+                    <img src="../images/buttom/icon_nav_button.png" alt="">
+                </div>
+                <p class="weui-grid__label">
+                    华语
+                </p>
+            </a>
+            <a href="javascript:;" class="grid" >
+                <div class="weui-grid__icon">
+                    <img src="../images/buttom/icon_nav_cell.png" alt="">
+                </div>
+                <p class="weui-grid__label">
+                    流行
+                </p>
+            </a>
+            <a href="javascript:;" class="grid" >
+                <div class="weui-grid__icon">
+                    <img src="../images/buttom/icon_nav_toast.png" alt="">
+                </div>
+                <p class="weui-grid__label">
+                    摇滚
+                </p>
+            </a>
+            <a href="javascript:;" class="grid" >
+                <div class="weui-grid__icon">
+                    <img src="../images/buttom/icon_nav_dialog.png" alt="">
+                </div>
+                <p class="weui-grid__label">
+                    民谣
+                </p>
+            </a>
+        </div>
+
+        <!-- 尾部 -->
+        <div class="content">
+            <div class="c-room-item">
+                <a href="/4372875">
+                    <div class="room-show ">
+                        <img class="room-pic" src="../images/bg/jay.jpg" alt="" style="display: block;">
+                        <div class="up-shadow"></div>
+                        <span class="room-online">14.4万</span>
+                        <div class="bottom-shadow"></div>
+                        <span class="room-nickname">周杰伦</span>
+                    </div>
+                    <div class="room-des">【歌名】七里香</div>
+                </a>
+            </div>
+            <div class="c-room-item">
+                <a href="/4372875">
+                    <div class="room-show ">
+                        <img class="room-pic" src="../images/bg/zzy.jpg" alt="" style="display: block;">
+                        <div class="up-shadow"></div>
+                        <span class="room-online">9.4万</span>
+                        <div class="bottom-shadow"></div>
+                        <span class="room-nickname">张震岳</span>
+                    </div>
+                    <div class="room-des">【歌名】小宇</div>
+                </a>
+            </div>
+            <div class="c-room-item">
+                <a href="/4372875">
+                    <div class="room-show ">
+                        <img class="room-pic" src="../images/bg/zzy.jpg" alt="" style="display: block;">
+                        <div class="up-shadow"></div>
+                        <span class="room-online">9.4万</span>
+                        <div class="bottom-shadow"></div>
+                        <span class="room-nickname">张震岳</span>
+                    </div>
+                    <div class="room-des">【歌名】小宇</div>
+                </a>
+            </div>
+            <div class="c-room-item">
+                <a href="/4372875">
+                    <div class="room-show ">
+                        <img class="room-pic" src="../images/bg/zzy.jpg" alt="" style="display: block;">
+                        <div class="up-shadow"></div>
+                        <span class="room-online">9.4万</span>
+                        <div class="bottom-shadow"></div>
+                        <span class="room-nickname">张震岳</span>
+                    </div>
+                    <div class="room-des">【歌名】小宇</div>
+                </a>
+            </div>
+            <div class="c-room-item">
+                <a href="/4372875">
+                    <div class="room-show ">
+                        <img class="room-pic" src="../images/bg/zzy.jpg" alt="" style="display: block;">
+                        <div class="up-shadow"></div>
+                        <span class="room-online">9.4万</span>
+                        <div class="bottom-shadow"></div>
+                        <span class="room-nickname">张震岳</span>
+                    </div>
+                    <div class="room-des">【歌名】小宇</div>
+                </a>
+            </div>
+            <div class="c-room-item">
+                <a href="/4372875">
+                    <div class="room-show ">
+                        <img class="room-pic" src="../images/bg/zzy.jpg" alt="" style="display: block;">
+                        <div class="up-shadow"></div>
+                        <span class="room-online">9.4万</span>
+                        <div class="bottom-shadow"></div>
+                        <span class="room-nickname">张震岳</span>
+                    </div>
+                    <div class="room-des">【歌名】小宇</div>
+                </a>
+            </div>
+            <div class="c-room-item">
+                <a href="/4372875">
+                    <div class="room-show ">
+                        <img class="room-pic" src="../images/bg/zzy.jpg" alt="" style="display: block;">
+                        <div class="up-shadow"></div>
+                        <span class="room-online">9.4万</span>
+                        <div class="bottom-shadow"></div>
+                        <span class="room-nickname">张震岳</span>
+                    </div>
+                    <div class="room-des">【歌名】小宇</div>
+                </a>
+            </div>
+            <div class="c-room-item">
+                <a href="/4372875">
+                    <div class="room-show ">
+                        <img class="room-pic" src="../images/bg/zzy.jpg" alt="" style="display: block;">
+                        <div class="up-shadow"></div>
+                        <span class="room-online">9.4万</span>
+                        <div class="bottom-shadow"></div>
+                        <span class="room-nickname">张震岳</span>
+                    </div>
+                    <div class="room-des">【歌名】小宇</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="hei"></div>
+    </div>
+    <!-- 尾部 -->
+    <div id="footer"></div>
+</body>
+</html>
+<!-- 必须要，用来加载头部尾部 -->
+<script src="../js/main.js"></script>
